@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/* PseudoClasse*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@font-face {
+    font-family:'Android' ;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+
+*{
+    margin:0px;
+    padding:0px;
+
+}
+:root {
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+
+    --font-padrao: Arial, Helvetica.  verdana, sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;
+    --font-Android: 'Android', cursive;
+}
+
+
+body{
+    background-color:#6edda0;
+    font-family: var(--font-padrao);
+}
+
+ p{
+    margin: 15px 0px;
+    
+}
+
+header{
+    background-color: var(--cor5);
+    font-size: 2em;
+    min-height: 150px;
+}
+
+header p{
+    color:white;
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px rgba(106, 103, 103, 0);
+   
+    
+}
+
+header  h1{
+ color: white;
+ font-family:var(--font-destaque);
+ text-align: center;
+ padding-top: 40px;
+}
+
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    border-radius: 7px 9px rgba(106, 104, 104, 0);
+}
+
+nav > a{
+    color: white;
+    border-radius:5px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav> a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+main{
+    min-width: 350px;
+    max-width: 1000px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.107);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin: 50px;
+    background-color: white;
+   
+    
+}
+main h1{
+    color:var(--cor5);
+}
+
+ img{
+    width:100%;
+}
+
+main img.pequena{
+    max-width:350px
+    display:block
+}
+
+
+h2{
+    font-family: var(--font-Android);
+    color: var(--cor3);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor0));
+    text-indent: 8px;
+}
+
+ p{
+    margin: 15px 0px;
+    text-align: center;
+    text-indent: 30px;
+}
+
+ strong{
+    color: var(--cor4);
+    padding: 2px 6px;
+}
+
+main a{
+    text-decoration: none;
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
+main a:hover {
+    text-decoration: underline;
+}
+
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(78, 76, 76, 0);
+}
+ 
+div.vídeo{
+    text-align: center;
+}
+aside h3{
+    background-color: var(--cor4);
+    color: white;
+    margin: -10px -10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside ul{
+    list-style-type: /'2714\00A0';
+    list-style-position:inside ;
+    columns: 2;
+}
+footer{
+    text-align: center;
+    background-color: var(--cor5);
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor2);
+}  */cor para link/*
