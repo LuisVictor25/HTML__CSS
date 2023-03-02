@@ -54,24 +54,53 @@ section{
     font-family: var(--font3);
     font-size: 2.3vw;
 }
+
+section >p{
+    padding-bottom: 3em;
+}
 section.normal{
     background-color: white;
     color: black;
+   
 }
 
 section.imagem{
-    background-color: rgb(55, 54, 54);
+    background-color: rgba(243, 15, 15, 0.133);
     color: white;
 }
 
 section.imagem > p{
-    display: inline-block;
+    display: inline-block; /* gera uma caixa de elemento de bloco*/
+    background-color: rgba(0, 0, 0, 0.447); /*dar a cor a caixa*/
+    text-shadow: 1px 1px 0px; /*text-shadowacrescenta sombras ao texto*/
     padding: 5px;
-    background-color: rgba(48, 47, 47, 0.27);
 }
 
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size:cover;
+    box-shadow:inset 6px 6px 13px  0px rgba(0, 0, 0, 0.469); /*Sombra de caixa "inset" --->interno*/
+    background-attachment: fixed;
+}
+
+section#img02{
+    background-image:url(imagens/background002.jpg);
+    background-position: left center;
+    background-size:cover;
+    box-shadow:inset 6px 6px 13px  0px rgba(0, 0, 0, 0.469);
+    background-attachment: fixed; /* "background-attachment" determina se aquela posição da imagem é fixa com o viewport, ou se irá rolar juntamente com o seu bloco*/
+}
 a:hover{
-    text-decoration:underline;
+    text-decoration:underline;  
+}
+
+ a{
+    color: white;
+}
+
+ a:hover{
+    color:gray
 }
 
 footer{
