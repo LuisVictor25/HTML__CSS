@@ -72,7 +72,7 @@ section.imagem{
 section.imagem > p{
     display: inline-block; /* gera uma caixa de elemento de bloco*/
     background-color: rgba(0, 0, 0, 0.447); /*dar a cor a caixa*/
-    text-shadow: 1px 1px 0px; /*text-shadowacrescenta sombras ao texto*/
+    /*text-shadow: 1px 1px 0px; text-shadowacrescenta sombras ao texto*/
     padding: 5px;
 }
 
