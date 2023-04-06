@@ -13,33 +13,33 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <fieldset>
-        <legend>Sexo</legend>
-
-        
-        <input type="radio" name="sexo" id="isexmas">
-        <label for="isexmas">Masculino</label>
-
-        <input type="radio" name="sexo" id="isexfem">
-        <label for="isexfem">Femenino</label>
-
-        
-    </fieldset>
-    <br>
-    <fieldset>
-        <legend>Esportes Favoritos</legend>
-        <p>
+    
+        <fieldset>
+            <legend>Sexo</legend>
             <form action="cadastro.php" method="get" autocomplete="on">
-                <input type="checkbox" name="futebol" id="iesfut" checked>
-                <label for="iesfut">Futebol</label>
-                <input type="checkbox" name="basquete" id="iesbas">
-                <label for="iesbas">Basquete</label>
-                <input type="checkbox" name="natacao" id="iesnata">
-                <label for="iesnata">Natação</label>
-                <input type="checkbox" name="tenis" id="iesten" checked>
-                <label for="iesten">Tênis</label>
-                        </p>
-            </form>
-    </fieldset>
+                <input type="radio" name="sexo" id="isexmas">
+                <label for="isexmas">Masculino</label>
+                <input type="radio" name="sexo" id="isexfem">
+                <label for="isexfem">Femenino</label>
+                <br>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+
+            <input type="checkbox" name="futebol" id="iesfut" checked>
+        <label for="iesfut">Futebol</label>
+        <input type="checkbox" name="basquete" id="iesbas">
+        <label for="iesbas">Basquete</label>
+        <input type="checkbox" name="natacao" id="iesnata">
+        <label for="iesnata">Natação</label>
+        <input type="checkbox" name="tenis" id="iesten" checked>
+        <label for="iesten">Tênis</label>
+            <br>
+            <input type="button" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+        
+        </form>
+    
 </body>
 </html>
