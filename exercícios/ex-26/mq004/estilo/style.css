@@ -31,25 +31,9 @@ h1{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
 }
 
-img{
-    display: block;
-    margin: auto;
-}
-img#phone{
-    display:block;
-}
-
-img#tablet{
-    display: none;
-}
-img#print{
-    display: none;
-}
-
-img#desktop{
-    display: none;
-}
-
-img#tv{
-    display: none;
-}
+img{ display: block; margin: auto;}
+img#phone{display:block;}
+img#tablet{display: none;}
+img#print{display: none;}
+img#desktop{display: none;}
+img#tv{display: none;}
