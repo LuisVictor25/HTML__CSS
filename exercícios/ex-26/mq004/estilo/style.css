@@ -18,8 +18,8 @@ body{
 
 main{
     background-color:#ffffff87;
-    width: 400px;
-     margin: auto;
+     width: 400px;
+     margin:auto;
      margin-top:20px;
      border-radius: 10px;
      padding: 10px;
@@ -32,7 +32,7 @@ h1{
 }
 
 img{ display: block; margin: auto;}
-img#phone{display:block;}
+img#phone{display:none;}
 img#tablet{display: none;}
 img#print{display: none;}
 img#desktop{display: none;}
