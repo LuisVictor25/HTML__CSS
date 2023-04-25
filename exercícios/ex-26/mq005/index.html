@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Medeas Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>
+<body>
+    <header>
+      
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clikMenu()">
+            menu
+        </i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opcção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Media Query CSS: O Que é, Para Que Serve e Quando Utilizar</h2>
+            
+            <p>
+                <div class="info-container">
+                    <div class="post__info">
+                        <img src="https://kenzie.com.br/blog/wp-content/uploads/2020/08/Imagem-do-iOS-1-scaled-1-96x96.jpg" alt="Brunno Kriger" width="40" height="40" class="author__image entered lazyloaded" data-lazy-src="https://kenzie.com.br/blog/wp-content/uploads/2020/08/Imagem-do-iOS-1-scaled-1-96x96.jpg" data-ll-status="loaded"><noscript><img
+                        src="https://kenzie.com.br/blog/wp-content/uploads/2020/08/Imagem-do-iOS-1-scaled-1-96x96.jpg"
+                        alt="Brunno Kriger"
+                        width="40"
+                        height="40"
+                        class="author__image"
+                        /></noscript>
+                        <span class="author__name"><strong>Por Brunno Kriger</strong></span>
+                        <span class="post__date"><em>24/11/22</em></span>
+                    </div> <br>
+        
+            </p>
+            
+            <p>
+                A evolução da tecnologia é um processo constante e acelerado. Todos os anos são lançados novos dispositivos com proporções divergentes das atuais. Devido a isso, é necessário que as nossas aplicações web acompanhem essas mudanças para manter o layout dos nossos sites responsivos e adaptáveis a qualquer tamanho de tela.
+            </p>
+
+            <p>
+                A evolução da tecnologia é um processo constante e acelerado. Todos os anos são lançados novos dispositivos com proporções divergentes das atuais. Devido a isso, é necessário que as nossas aplicações web acompanhem essas mudanças para manter o layout dos nossos sites responsivos e adaptáveis a qualquer tamanho de tela.
+            </p>
+
+            <p>
+                Já pensou se os desenvolvedores tivessem que alterar o código e o design de um projeto todas às vezes que lançasse um dispositivo novo? Não valeria a pena o trabalho e muito menos o investimento das empresas.
+            </p>
+            <p>
+                Para facilitar e resolver esse tipo de problema de renderização, existe o Media Query. Nesse artigo entenderemos melhor como utilizá-lo em nossas estilizações.
+            </p>
+
+            <h2>O que é Media Query CSS?</h2>
+
+            <p>
+                O Media Query é um recurso do <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank" rel="external">CSS</a> que visa facilitar o processo de configuração e renderização dos elementos de um site em diferentes tamanhos de tela. Dessa forma, independente do dispositivo que o usuário estiver utilizando, o site irá se adaptar e ficar totalmente responsivo, sem quebras de layout.
+            </p>
+
+            <h2>Para que serve o Media Query CSS?</h2>
+            <p>
+                Imagine que esteja acessando um site em seu computador. O seu monitor é muito maior que a tela do seu celular, por exemplo. Portanto, o site irá ocupar todo o espaço disponível para criar uma visualização melhor e uma boa experiência ao usuário. Quando acessar esse mesmo site em seu smartphone, perceberá que alguns elementos sofrerão mudanças, se adaptando ao tamanho de tela do seu dispositivo. Assim, os desenvolvedores conseguem manter seus sites responsivos, evitando problemas de renderização.
+            </p>
+
+           
+            <p>Se quiser saber mais sobre visite o site Kenzie,<a href="https://kenzie.com.br/blog/media-query-css/" target="_blank"external>Kenzie Media Query Css.</a>
+            </p>
+            <h4>Obrigado pela Leitura</h4>
+
+        </article>
+    </main>
+    <script>
+        function clikMenu(){
+           if (itens.style.display =='block') {
+                itens.style.display ='none'
+           } else {
+                itens.style.display='block'
+           }
+        }
+    </script>
+</body>
+</html>
